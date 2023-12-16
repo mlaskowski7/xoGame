@@ -6,21 +6,30 @@
     <link rel="icon" href="img/PageIcon.png">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/e03b286a27.js" crossorigin="anonymous"></script>
-    <title>XO | mlaskowski7</title>
+    <title>Tic Tac Toe | mlaskowski7</title>
 </head>
 <body>
     <div class="header">
-        XO GAME
+        Tic Tac Toe 
+    </div>
+    <div class="controls">
+        <span id="reset-icon" title="Restart Game"><i class="fa-solid fa-arrows-rotate"></i></span>
+        <span id="result-text" hidden> Player X Won!</span>
+        <div class="scores">
+            <span id="scoreO">Player O: 0</span>
+            <span id="turn">Player o turn</span>
+            <span id="scoreX">Player X: 0</span>
+        </div>
     </div>
     <div class="game-container">
         <div class="row">
-            <div class="block" id="block1"><i class="fa-solid fa-xmark"></i></div>
+            <div class="block" id="block1"></div>
             <div class="block" id="block2"></div>
             <div class="block" id="block3"></div>
         </div>
         <div class="row">
             <div class="block" id="block4"></div>
-            <div class="block" id="block5"><i class="fa-solid fa-o"></i></div>
+            <div class="block" id="block5"></div>
             <div class="block" id="block6"></div>
         </div>
         <div class="row">
@@ -28,7 +37,12 @@
             <div class="block" id="block8"></div>
             <div class="block" id="block9"></div>
         </div>
-        
     </div>
+
+    <div class="reset-points">
+        Reset Points
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
