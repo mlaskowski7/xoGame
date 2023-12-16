@@ -116,4 +116,12 @@ i{
     .game-container{
         width: 95%;
     }
+    .controls{
+        width: 95%;
+        font-size: 10px;
+        overflow: hidden;
+    }
+    .scores{
+        opacity: 0;
+    }
 }
